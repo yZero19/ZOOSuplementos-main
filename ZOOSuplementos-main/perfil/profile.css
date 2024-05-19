@@ -1,0 +1,129 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' sans-serif;
+}
+
+body{
+    background-image: url('https://www.actionacademia.com.br/background2.jpg');
+}
+
+.navbar {
+    background-color: #343a40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px 0;
+    height: auto;
+    width: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 52px;
+    text-align: center;
+}
+
+p,
+h2 {
+    color: black;
+    font-size: large;
+}
+
+.coloriz {
+    background-color: rgb(0, 0, 0);
+}
+
+.coloriz a {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.cardUser {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartaoUser {
+    width: 540px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    height: 590px;
+    border-radius: 17px;
+    box-shadow: rgb(0, 0, 0) 3px 22px 70px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotoPerfil{
+    background-color: rgb(0, 0, 0);
+    width: 120px;
+    border-radius: 50%;
+    border: rgba(0, 0, 0, 0.562) 3px solid;
+    box-shadow: rgba(255, 0, 0, 0.349) 0px 1px 14px;
+    transform: translateY(-50%);
+}
+
+
+.nomeProfile h1{
+    text-align: center;
+    margin: 30px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.nomeProfile h1:hover{
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s;
+}
+
+.nomeProfile p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.562);
+}
+
+.idColor{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.fColor{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 0, 0, 0.562);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nomeProfile h3{
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,375 @@
+* {
+    box-sizing: content-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background-color: #ffffff;
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h3 {
+    font-weight: bold;
+}
+
+.fraseIndex {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+.h1teste {
+    color: white;
+    font-size: 5vw;
+}
+
+.imgFundo {
+    background-color: rgb(255, 255, 255, 137);
+    border-radius: 50px;
+    transform: translateX(-5%);
+    transform: translateY(1%);
+}
+
+.explorarProduto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.produtoDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.btnBuy{
+    text-decoration: none;
+}
+
+.produtoDesc:hover {
+    background-color: rgb(0, 0, 0, 0.93);
+}
+
+.textoProduto {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.produtoDesc span a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.imgCard {
+    width: 200px;
+    margin: 30px;
+}
+
+.textDesc {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.separa {
+    width: 100%;
+    height: 1px;
+    opacity: 0.01;
+    background-color: rgb(0, 0, 0);
+}
+
+.btnBuy {
+    display: inline-block;
+    background-color: rgb(189, 4, 4);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 100;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 9px;
+    border: none;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+.btnBuy:hover {
+    background-color: rgba(160, 0, 0, 0.91);
+}
+
+.textoParc {
+    font-size: 11px;
+    color: #949494;
+    font-weight: bold;
+}
+
+.textoAv{
+    font-size: 12px;
+}
+
+.navbar {
+    background-color: #343a40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px 0;
+    height: auto;
+    width: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 52px;
+    text-align: center;
+}
+
+.coloriz button {
+    background-color: rgba(255, 255, 255, 0.952);
+}
+
+.logoLogin img {
+    margin-left: 17px;
+}
+
+p,
+h2 {
+    color: black;
+    font-size: large;
+}
+
+.coloriz {
+    background-color: rgb(0, 0, 0);
+}
+
+.coloriz a {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.coloriz a:hover {
+    color: rgb(255, 37, 37);
+    transition: 0.5s;
+}
+
+.coloriz .fonteLog {
+    width: 20px;
+}
+
+.coloriz span {
+    font-size: 15px;
+    margin: 4px;
+    font-weight: 100;
+}
+
+.imglogo {
+    width: 150px;
+}
+
+.linha-vertical {
+    width: 1px;
+    opacity: 0.2;
+    background-color: white;
+}
+
+.textoCSS {
+    text-align: center;
+}
+
+.fundoTeste {
+    background-color: blue;
+}
+
+.textExplicacao {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+.cardi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px;
+}
+
+.cardes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+}
+
+.testeS {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.avaliacaoCard {
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.imgAv{
+    width: 50px;
+    opacity: 0.3;
+    transform: translateX(-200%);
+}
+
+.imgAv2{
+    width: 50px;
+    opacity: 0.3;
+    transform: translateX(200%);
+}
+
+.topAvaliacao {
+    text-align: center;
+}
+
+.rate {
+    display: flex;
+    justify-content: center;
+    height: 46px;
+    padding: 0 10px;
+    color: blue;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:left;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#e0bf00;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+ 
+}
+
+
+footer {
+    text-align: center;
+}
+
+.footerSite {
+    background-color: rgb(0, 0, 0);
+}
+
+.footerSite p2 {
+    color: rgb(255, 255, 255);
+
+}
+
+@-moz-document url-prefix() {
+
+    /* Firefox Hack :( */
+    .star-icon {
+        font-size: 50px;
+        line-height: 34px;
+    }
+}
+
+/* Estilos para a barra de navegação em dispositivos móveis */
+@media (max-width: 992px) {
+    .navbar-toggler {
+        border: none;
+    }
+}
+
+/* Estilos para a barra de navegação em dispositivos móveis */
+@media (max-width: 992px) {
+  .navbar-toggler {
+    border: none;
+  }
+}
+
+/* Estilos para dispositivos com largura de tela até 600px */
+@media only screen and (max-width: 600px) {
+  .hero,
+  .explorarProduto,
+  .back,
+  .cardes {
+    width: 100%;
+    padding: 0;
+  }
+
+  .produtoDesc,
+  .cardi,
+  .testeS,
+  .avaliacaoCard {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Estilos para dispositivos com largura de tela de 601px a 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .hero,
+  .explorarProduto,
+  .back,
+  .cardes {
+    width: 100%;
+    padding: 0;
+}
+
+
+  .produtoDesc,
+  .cardi,
+  .testeS,
+  .avaliacaoCard {
+    width: 50%;
+    margin: 10px;
+  }
+}
+
+/* Estilos para dispositivos com largura de tela maior que 900px */
+@media only screen and (min-width: 901px) {
+  .hero,
+  .explorarProduto,
+  .back,
+  .cardes {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .produtoDesc,
+  .cardi,
+  .testeS,
+  .avaliacaoCard {
+    width: 25%;
+    margin: 10px;
+  }
+}
