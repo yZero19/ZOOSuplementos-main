@@ -27,7 +27,7 @@ include ('profileset.php');
 <header>
     <nav class="navbar navbar-expand-lg coloriz">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.php"><img src="../img/Group 5.svg" alt="Logo" class="imglogo"></a>
+      <a class="navbar-brand" href="../index.php"><img src="../img/Group 5.svg" alt="Logo" class="imglogo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

@@ -100,7 +100,7 @@ tr:nth-child(even) {
 <header>
     <nav class="navbar navbar-expand-lg coloriz">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.php"><img src="../img/Group 5.svg" alt="Logo" class="imglogo"></a>
+      <a class="navbar-brand" href="../index.php"><img src="../img/Group 5.svg" alt="Logo" class="imglogo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -112,38 +112,38 @@ tr:nth-child(even) {
             </li>
             <?php if ($idUser != '') { ?>
             <li class="nav-item">
-              <a class="nav-link" href="../produtos/produtos.php">Produtos</a>
+              <a class="nav-link" href="../ZOOSuplementos-main/produtos/produtos.php">Produtos</a>
             </li>
             <div class="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="../carrinho/carrinho.php"><img src="../img/icons8-shopping-cart-50.png" alt=""
+              <a class="nav-link" href="../ZOOSuplementos-main/carrinho/carrinho.php"><img src="../img/icons8-shopping-cart-50.png" alt=""
                   style="width:30px"></a>
             </li>
             <div class="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="../perfil/profile.php"><img src="../img/account.png" alt=""
+              <a class="nav-link" href="../ZOOSuplementos-main/perfil/profile.php"><img src="../img/account.png" alt=""
                   class="fonteLog"><span></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../login/desconecta.php"><img src="../img/icons8-logout-50.png" alt=""
+              <a class="nav-link" href="../ZOOSuplementos-main/login/desconecta.php"><img src="../img/icons8-logout-50.png" alt=""
                   class="fonteLog"><span>Logout</span></a>
             </li>
             <?php } else { ?>
             <li class="nav-item">
-              <a class="nav-link" href="../produtos/produtos.php">Produtos</a>
+              <a class="nav-link" href="../ZOOSuplementos-main/produtos/produtos.php">Produtos</a>
             </li>
             <div class="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="../carrinho/carrinho.php"><img src="../img/icons8-shopping-cart-50.png" alt=""
+              <a class="nav-link" href="../ZOOSuplementos-main/carrinho/carrinho.php"><img src="../img/icons8-shopping-cart-50.png" alt=""
                   style="width:30px"></a>
             </li>
             <div class="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="../login/login.php"><img src="../img/account.png" alt=""
+              <a class="nav-link" href="../ZOOSuplementos-main/login/login.php"><img src="../img/account.png" alt=""
                   class="fonteLog"><span>Login</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../registro/registro.php"><img
+              <a class="nav-link" href="../ZOOSuplementos-main/registro/registro.php"><img
                   src="../img/icons8-interface-de-usuário-natural-2-48.png" alt="" class="fonteLog"><span
                   class="Teste">Registre-se</span></a>
             </li>
@@ -152,10 +152,10 @@ tr:nth-child(even) {
                         if ($idUser == '8') { ?>
             <div class="linha-vertical"></div>
             <li class="nav-item">
-              <a class="nav-link" href="../dbprod/add_product.php">Adicionar Produtos</a>
+              <a class="nav-link" href="../ZOOSuplementos-main/dbprod/add_product.php">Adicionar Produtos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../dbprod/modidyprod.php">Listar Produtos</a>
+              <a class="nav-link" href="../ZOOSuplementos-main/dbprod/modidyprod.php">Listar Produtos</a>
             </li>
             <?php } ?>
           </ul>
